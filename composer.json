@@ -1,0 +1,12 @@
+{
+    "name": "slava/test1",
+    "type": "p",
+    "autoload": {
+        "psr-4": {
+            "slava\\Test1\\": "src/"
+        }
+    },
+    "require": {
+        "mongodb/mongodb": "^1.17"
+    }
+}
