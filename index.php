@@ -1,25 +1,8 @@
 <?php
-require 'vendor/autoload.php';
-//header('Content-type: text/plain; charset=utf-8');
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
 header("Access-Control-Allow-Headers: Content-Type");
 
-/*
-$client = new \MongoDB\Client("mongodb+srv://admin:admin@cluster0.rj9z889.mongodb.net/");
-$DB = $client->library_db;
-$collection = $DB->appUser;
-
-$filter = ['username' => 'Admin'];
-$options = ['limit' => 2];
-
-$cursor = $collection->find($filter, $options);
-
-foreach ($cursor as $document) {
-    $username = $document['username'];
-    echo "Username: $username\n";
-}
-*/
 
 session_start();
 
